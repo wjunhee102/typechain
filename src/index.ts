@@ -22,7 +22,7 @@ class Block {
   typeof aBlock.timestamp === "number" &&
   typeof aBlock.data === "string";
   
-    constructor(
+  constructor(
     index:number,
     hash: string,
     previousHash: string,
